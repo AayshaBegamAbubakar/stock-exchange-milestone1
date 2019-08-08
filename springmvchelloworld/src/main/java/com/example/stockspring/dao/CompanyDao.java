@@ -1,0 +1,12 @@
+package com.example.stockspring.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import com.example.stockspring.model.Company;
+
+public interface CompanyDao {
+	
+		public List<Company> getCompanyList() throws SQLException;
+
+}
